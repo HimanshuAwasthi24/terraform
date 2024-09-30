@@ -1,4 +1,6 @@
 provider "aws"{
 region: "ap-south-1"
 }
-resource "aws"
+resource "aws_instance" "demo"{
+
+}
