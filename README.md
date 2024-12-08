@@ -1,7 +1,7 @@
 # Terraform
 
 ## Table of contents
-1. [Create_before_destroy] (#Create_before_destro)
+1. [Create_before_destroy] (#Create_before_destroy)
 
 ### Terraform Docs Dev To Prod
 `Terraform is a infrastructure as a code tool, Which supports multicloud and highly scalable and easy to use`
