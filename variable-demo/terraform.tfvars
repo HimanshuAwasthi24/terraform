@@ -1,0 +1,15 @@
+#varify all the values
+region_name       = "ap-south-1"
+vpc_cidr_value    = "10.0.0.0/16"
+vpc_tag_value     = "terra_vpc"
+subnet_cidr_value = "10.0.1.0/24"
+# subnet_az         = "ap-south-1"
+subnet_tag_value  = "terra-subnet"
+igw_tag_value     = "terra-igw"
+rt_cidr_value     = "0.0.0.0/0"
+rt_tag_value      = "terra-rt"
+ec2_ami_value     = "ami-053b12d3152c07382"
+ec2_az_value      = "ap-south-1c"
+ec2_type          = "t3.micro"
+ec2_tag_value     = "terra-ec2"
+ec2_key           = ""  #pem key
