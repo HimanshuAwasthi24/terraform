@@ -16,7 +16,7 @@ Types:
 1. **Implicit** => Default values which depends on a resource(Like subnets and IGW depends on vpc without vpc there is no use of such things)
 2. **Explicit** => mention `depends_on` module on the resource after which you want the current resource to be created
 
-## <code style="color:red;">Create_before_destroy</code>
+<code style="color:red;">Create_before_destroy</code>
 
 ```hcl
 #to add prevent_destroy
