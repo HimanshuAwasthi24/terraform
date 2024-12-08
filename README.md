@@ -11,3 +11,8 @@ Types:
 2. Partener=> Companies are creating providers for themselves like Alibaba
 3. community=> open source providers where anyone can contribute
 ```
+
+## dependencies in terraform
+1. **Implicit** => Default values which depends on a resource(Like subnets and IGW depends on vpc without vpc there is no use of such things)
+2. **Explicit** => mention `depends_on` module on the resource after which you want the current resource to be created
+
