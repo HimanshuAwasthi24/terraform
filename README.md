@@ -1,7 +1,7 @@
 # Terraform
 
 ## Table of contents
-1. [Create_before_destroy] (#Create_before_destroy)
+1. [Create-before-destroy] (#Create-before-destroy)
 
 ### Terraform Docs Dev To Prod
 `Terraform is a infrastructure as a code tool, Which supports multicloud and highly scalable and easy to use`
@@ -25,7 +25,7 @@ Types:
 1. **Implicit** => Default values which depends on a resource(Like subnets and IGW depends on vpc without vpc there is no use of such things)
 2. **Explicit** => mention `depends_on` module on the resource after which you want the current resource to be created
 
-## Create_before_destroy
+## Create-before-destroy
 
 ```hcl
 #to add prevent_destroy
