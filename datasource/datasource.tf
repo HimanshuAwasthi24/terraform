@@ -8,7 +8,7 @@ resource "aws_vpc" "existing_resource" {
 
 resource "aws_internet_gateway" "resource_to_be_attached" {
   vpc_id = data.aws_vpc.existing_resource.id #added data.restOfTheVaribale to attach IGW with existing vpc
-  depends_on = [ aws_vpc.existing_resource ]
+  depends_on = [ aws_vpc.existing_resource ] #When vpc is created then only the IGW will be created
   tags = {
     name="IGW_created_using_terraform"
   }
