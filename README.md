@@ -1,7 +1,16 @@
+# Terraform
+
+## Table of contents
+1. [Create_before_destroy] (#Create_before_destro)
+
 ### Terraform Docs Dev To Prod
 `Terraform is a infrastructure as a code tool, Which supports multicloud and highly scalable and easy to use`
+
+
 ## Terraform lifecycle
 `Terraform init => plan => apply => destroy`
+
+
 ## Provider
 ```
 Is a plugin which detects that where Terraform has to create resources
@@ -31,3 +40,5 @@ lifecycle {
     create_before_destroy = true
 }
 ```
+
+## Workspace
